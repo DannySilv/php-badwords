@@ -17,7 +17,7 @@
 <h1>Paragrafo Censurato</h1>
 <p>
   <?php
-  $censoredWord = $_GET['word'];
+  $censoredWord = $_GET["word"];
   $myParCensored = str_replace("$censoredWord", "***", $myPar);
   echo "$myParCensored";
   ?>
